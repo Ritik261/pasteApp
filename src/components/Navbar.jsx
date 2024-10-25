@@ -5,6 +5,8 @@ import { FaHome, FaClipboardList } from 'react-icons/fa'; // Importing icons
 const Navbar = () => {
     return (
         <div className='bg-gray-900 p-4 shadow-md'> {/* Dark background for the navbar */}
+        <div>
+            <h1>Notes Taking App</h1></div>
             <div className='flex flex-row gap-4 place-content-evenly'>
                 <NavLink 
                     to='/' 
